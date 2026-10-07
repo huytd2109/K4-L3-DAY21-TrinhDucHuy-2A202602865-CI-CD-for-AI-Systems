@@ -1,4 +1,5 @@
 name: Income Model CI/CD
+run-name: ${{ github.event.head_commit.message || 'Income model - manual run' }}
 
 on:
   push:

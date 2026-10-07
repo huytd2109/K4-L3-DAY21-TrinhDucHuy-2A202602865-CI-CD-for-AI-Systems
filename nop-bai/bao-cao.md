@@ -16,7 +16,7 @@ HƯỚNG DẪN - đọc rồi XÓA TOÀN BỘ các khối chú thích này sau k
 | Họ và tên | ___ |
 | MSSV | ___ |
 | Lớp / Khóa | K4 |
-| Repo GitHub | https://github.com/___/___ |
+| Repo GitHub | https://github.com/huytd2109/K4-L3-DAY21-TrinhDucHuy-2A202602865-CI-CD-for-AI-Systems |
 | Ngày nộp | ___ |
 
 ---
@@ -68,7 +68,7 @@ Cần nêu được:
 
 | | f1_score | accuracy |
 |---|---|---|
-| Bước 2 (chỉ `train_batch1`) | ___ | ___ |
+| Bước 2 (chỉ `train_batch1`) | 0.7149 | 0.8740 |
 | Bước 3 (thêm `train_batch2`) | ___ | ___ |
 
 **Nhận xét:** ___
