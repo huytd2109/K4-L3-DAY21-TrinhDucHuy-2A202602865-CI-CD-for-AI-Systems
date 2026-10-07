@@ -56,7 +56,7 @@ Chỉ kết luận CP2 hoàn thành sau khi có run GitHub Actions đủ bốn j
 ## Kết quả CP2 đã kiểm tra
 
 - EC2 `i-01406a2bbade020aa`, Ubuntu 22.04, IP `98.92.48.82`; systemd `income-api` phục vụ cổng 8080.
-- [Run CP2](https://github.com/huytd2109/K4-L3-DAY21-TrinhDucHuy-2A202602865-CI-CD-for-AI-Systems/actions/runs/37574584115) có đủ bốn jobs thành công, bao gồm 9 unit tests. Artifact report: F1 binary 0.7149321267, accuracy 0.8740 trên holdout 500 mẫu.
+- [Run CP2](https://github.com/huytd2109/K4-L3-DAY21-TrinhDucHuy-2A202602865-CI-CD-for-AI-Systems/actions/runs/37575040719) được kích hoạt tự động bởi push commit `8fc70a7`, có đủ bốn jobs thành công, bao gồm 9 unit tests. Artifact report: F1 binary 0.7149321267, accuracy 0.8740 trên holdout 500 mẫu.
 - Gọi từ máy cục bộ: `/healthz` HTTP 200; hai mẫu `/score` trong đề trả lần lượt `thu_nhap_thap` và `thu_nhap_cao`; input thiếu đặc trưng trả HTTP 400.
 - Ba object DVC và model current đã hiện trên S3 Console. Ảnh nộp bài: `02-actions-buoc-2.png`, `04-curl-api.png`, `05a-storage-dvc.png`, `05b-storage-model.png`. Ảnh 04 chụp terminal SSH thật hiển thị qua trình duyệt, với đầu ra trực tiếp từ PTY EC2.
 - Private key và AWS credential nằm trong `.local-cp2/` (Git-ignored); không nằm trong commit. Public IP có thể đổi nếu dừng rồi bật EC2, khi đó cần cập nhật secret SERVER_HOST.
