@@ -11,3 +11,8 @@ sa-key.json
 __pycache__/
 *.pyc
 .DS_Store
+
+.venv311/
+.pytest_cache/
+mlruns/
+.local-cp2/
